@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+
+.container-hero02 {
+    background: url(../img/image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.li {
+    list-style: none;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    background-color: green;
+}
+
+.titulo {
+    padding-right: 30rem;
+    padding-top: 10px;
+    color: white;
+}
+
+.voltar {
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.button {
+    padding: 15px;
+    margin: 10px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+}
+
+.telefone {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+input{
+    font-size: 25px;
+    border: 2px solid rgb(129, 127, 127);
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.email {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.local {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.Quantidade {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.termino{
+    margin-top: 30px;
+}
+.botãofinal{
+    color: rgb(255, 255, 255);
+    background-color: red;
+
+}
+
+.propaganda{
+    display:flex;
+    width: 36%;
+    
+}
+
+.btn2{
+    width: 150px;
+    margin-top: 20px;
+}

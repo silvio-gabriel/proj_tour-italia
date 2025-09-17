@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFE9BE;
+}
+
+.topo {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    background-color: green;
+
+}
+
+.topo h1{
+    padding-right: 33rem;
+    padding-top: 10px;
+    color: white;
+}
+
+.button {
+    padding: 15px;
+    margin: 15px;
+    background-color:red;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.container{
+    
+}
