@@ -2,26 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-form{
+form {
+    background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    
+    padding: 15px;
+    height: 72%;
+    justify-content: center;
+    width: 33%;
+    border-radius: 15px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+
 }
 
 .container-hero02 {
-    background: url(../img/image.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100dvh;
+    background-color: #FFE9BE;
+    /* login */
+    height: 88.5dvh;
+    align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .li {
@@ -34,6 +41,7 @@ form{
     align-items: center;
     padding-bottom: 15px;
     background-color: green;
+    height: 100px;
 }
 
 .titulo {
@@ -56,53 +64,47 @@ form{
     border-radius: 8px;
 }
 
+.botao {
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.botao2 {
+    color: white;
+    font-weight: bold;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
 .telefone {
     padding-left: 20px;
     font-size: 30px;
 }
 
-input{
+input {
     font-size: 25px;
     border: 2px solid rgb(129, 127, 127);
     border-radius: 10px;
     margin-left: 10px;
     padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
 }
 
-.email {
-    padding-left: 20px;
+label {
+    padding-left: 15px;
     padding-top: 20px;
     font-size: 30px;
 }
 
-.local {
-    padding-left: 20px;
-    padding-top: 20px;
-    font-size: 30px;
-}
-
-.Quantidade {
-    padding-left: 20px;
-    padding-top: 20px;
-    font-size: 30px;
-}
-
-.termino{
-    margin-top: 30px;
-}
-.botãofinal{
-    color: rgb(255, 255, 255);
-    background-color: red;
-
-}
-
-.propaganda{
-    display:flex;
-    width: 36%;
-    
-}
-
-.btn2{
-    width: 150px;
-    margin-top: 20px;
+.telefone {
+    padding-left: 15px;
+    margin-top: 23px;
 }
